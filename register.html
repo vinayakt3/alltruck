@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home-Alltruck</title>
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="Vinayak Tripathi" />
+	<!-- Favicons (created with http://realfavicongenerator.net/)-->
+	<link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png">
+	<link rel="icon" type="image/png" href="img/favicons/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="img/favicons/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="img/favicons/manifest.json">
+	<link rel="shortcut icon" href="img/favicons/favicon.ico">
+	<meta name="msapplication-TileColor" content="#00a8ff">
+	<meta name="msapplication-config" content="img/favicons/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+	<!-- Normalize -->
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<!-- Bootstrap -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<!-- Owl -->
+	<link rel="stylesheet" type="text/css" href="css/owl.css">
+	<!-- Animate.css -->
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.1.0/css/font-awesome.min.css">
+	<!-- Elegant Icons -->
+	<link rel="stylesheet" type="text/css" href="fonts/eleganticons/et-icons.css">
+	<!-- Main style -->
+	<link rel="stylesheet" type="text/css" href="css/alltruck.css">
+	<link rel="stylesheet" type="text/css" href="css/vinayak.css">
+</head>
+
+<body>
+	<div class="preloader">
+		<img src="img/loader.gif" alt="Preloader image">
+	</div>
+	<nav class="navbar">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#"><img src="img/logo.png" data-active-url="img/logo-active.png" alt=""></a>
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right main-nav">
+					<!--<li><a href="#intro">Intro</a></li>
+					<li><a href="#services">Services</a></li>
+					<li><a href="#team">Team</a></li>-->
+					<li><a href="customer.html">Customer Page</a></li>
+					<li><a href="transporter.html">Owner/Transporter Page</a></li>
+					<li>
+					<a href="#" data-toggle="modal" data-target="#modal1" class="btn btn-blue">
+					Login/Sign Up
+					</a>
+					</li>
+				</ul>
+			</div>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container-fluid -->
+	</nav>
+	
+	<!--header-->
+	<div style="height: 150px;  background: black; margin-bottom: 50px;">
+		
+	</div>
+	
+	<section>
+	<div class="container">
+	<div class="row">
+		                                <div class="col-md-12">
+										<h3>Register As</h3>
+                                    <!-- Nav tabs --><div class="card">
+                                    <ul class="nav nav-tabs" role="tablist">
+                                        <li role="presentation" class="active"><a href="#transporter" aria-controls="transporter" role="tab" data-toggle="tab">Truck Supplier</a></li>
+                                        <li role="presentation"><a href="#customer" aria-controls="customer" role="tab" data-toggle="tab">Freight Provider</a></li>
+                                        
+                                    </ul>
+
+                                    <!-- Tab panes -->
+                                    <div class="tab-content">
+                                        <div role="tabpanel" class="tab-pane active" id="transporter">
+										<form action="" class="">
+					<h4>Basic Details</h4>
+					<input type="text" required="required" class="form-control-vin form-vin" placeholder="First Name">
+					<input type="text" required class="form-control-vin form-vin" placeholder="Last Name">
+					<input type="email" required class="form-control-vin form-vin" placeholder="Email Address">
+					<input type="tel" required class="form-control-vin form-vin" placeholder="Contact No.">
+					<input type="password" required class="form-control-vin form-vin" placeholder="Password">
+					<input type="password" required class="form-control-vin form-vin" placeholder="Confirm Password">
+					
+					<h4>Contact Details</h4>
+					<input type="text" required class="form-control-vin form-vin" placeholder="Full Address">
+					<input type="text" required class="form-control-vin form-vin" placeholder="Locality">
+					<input type="text" required class="form-control-vin form-vin" placeholder="City">
+					<input type="text" required class="form-control-vin form-vin" placeholder="State">
+					<input type="text" required class="form-control-vin form-vin" placeholder="Country">
+					<input type="number" required class="form-control-vin form-vin" placeholder="PIN Code">
+					<input type="tel"  class="form-control-vin form-vin" placeholder="Landline No.">
+					<input type="number"  class="form-control-vin form-vin" placeholder="FAX">
+					
+					<h4>Business Details</h4>
+					<input type="text"  required class="form-control-vin1 form-vin" placeholder="Transport Name">
+					<select required class="form-control-vin1 form-vin" >
+						<option disabled selected>Transporter Type</option>
+						<option value="Fleet Owner">Fleet Owner</option>
+						<option value="Container Supplier">Container Supplier</option>
+						<option value="Broker/Agent">Broker/Agent</option>
+						<option value="Logistics Transporter">Logistics Transporter</option>
+					</select>
+					<select required class="form-control-vin1 form-vin" >
+						<option disabled selected>Business Entity Type</option>
+						<option value="Individuals">Individuals</option>
+						<option value="Proprietorship">Proprietorship</option>
+						<option value="Broker/Agent">Privated Limited Company</option>
+						<option value="Publick Limited Company">Public Limited Company</option>
+					</select>
+					<input type="date" required class="form-control-vin1 form-vin" placeholder="Business Establishment Date">
+					<input type="url"  class="form-control-vin1 form-vin" placeholder="website(optional)">
+					<input type="text" required class="form-control-vin1 form-vin" placeholder="PAN #">
+					<input type="text" class="form-control-vin1 form-vin" placeholder="Service Tax #">
+					<input type="text" class="form-control-vin1 form-vin" placeholder="TIN/CIN">
+					<input type="number" required class="form-control-vin1 form-vin" placeholder="No of Truck">
+					<input type="text" required class="form-control-vin1 form-vin" placeholder="No of Truck with GPS">
+					<input type="text" class="form-control-vin1 form-vin" placeholder="Branch">
+					<input type="text" required class="form-control-vin1 form-vin" placeholder="States being Operated">
+					<br>Major Routes Being Covered*<br>
+					<input type="text" class="form-control-vin1 form-vin" placeholder="From Location">
+					<input type="text" class="form-control-vin1 form-vin" placeholder="To location">
+					<button type="" class="btn btn1 btn-red">Add More</button>
+					<br><label>Truck type</label><br>
+					<select multiple required class="form-control-vin1 form-vin" >
+				        <option value="Tankers">Tankers</option>
+						<option value="Double Dackers">Double Dackers</option>
+						<option value="Refrigerated">Refrigerated</option>
+						<option value="Canters">Canters</option>
+						<option value="Scooter Body">Scooter Body</option>
+					</select>
+					
+					<br>Business Registration Certificate* (Shop & Establishment License, Partnership Deed, Trade License, Certificate of Incorporation, etc.)
+					<input type="file" required class="form-control-vin1 form-vin" placeholder="">
+					<br>Company Logo:
+					<input type="file" class="form-control-vin1 form-vin" placeholder="">
+					<br>Office Photo:
+					<input type="file" class="form-control-vin1 form-vin" placeholder="">
+					<br>User Photo:
+					<input type="file" class="form-control-vin1 form-vin" placeholder="">
+					
+					<div class="">
+							<input type="checkbox" required name="check">
+							<label for="squaredOne"><span>I Agree to the <strong>Terms &amp; Conditions</strong> and <strong>Privacy Policy</strong></span></label>
+						</div>
+					<br><button type="submit" class="btn btn-red">Create Account</button>
+				</form>
+										</div>
+                                        
+										<div role="tabpanel" class="tab-pane" id="customer">
+																	<form action="" class="">
+					<div class="col-md-12">
+					<h4>Basic Details</h4>
+					<div class="col-md-6"><input type="text" required class="form-control-vin form-vin" placeholder="First Name"></div>
+					<div class="col-md-6"><input type="text" required class="form-control-vin form-vin" placeholder="Last Name"></div>
+					<div class="col-md-6"><input type="email" required class="form-control-vin form-vin" placeholder="Email Address"></div>
+					<div class="col-md-6"><input type="tel" required class="form-control-vin form-vin" placeholder="Contact No."></div>
+					<div class="col-md-6"><input type="password" required class="form-control-vin form-vin" placeholder="Password"></div>
+					<div class="col-md-6"><input type="password" required class="form-control-vin form-vin" placeholder="Confirm Password"></div>
+					
+					</div>
+					<div class="col-md-12">
+					<h4>Contact Details</h4>
+					<div class="col-md-6"><input type="text" required class="form-control-vin form-vin" placeholder="Full Address"></div>
+					<div class="col-md-6"><input type="text" required class="form-control-vin form-vin" placeholder="Locality"></div>
+					<div class="col-md-6"><input type="text" required class="form-control-vin form-vin" placeholder="City"></div>
+					<div class="col-md-6"><input type="text" required class="form-control-vin form-vin" placeholder="State"></div>
+					<div class="col-md-6"><input type="text" required class="form-control-vin form-vin" placeholder="Country"></div>
+					<div class="col-md-6"><input type="number" required class="form-control-vin form-vin" placeholder="PIN Code"></div>
+					<div class="col-md-6"><input type="number"  class="form-control-vin form-vin" placeholder="Landline"></div>
+					<div class="col-md-6"><input type="number"  class="form-control-vin form-vin" placeholder="FAX"></div>
+					</div>
+					
+					<h4>Business Details</h4>
+					<input type="text"  required class="form-control-vin1 form-vin" placeholder="Company Name">
+					<select required class="form-control-vin1 form-vin" >
+						<option disabled selected>Company Type</option>
+						<option value="Manufacturing Unit">Manufacturing Unit</option>
+						<option value="Dealer/Distributer">Dealer/Distributer</option>
+						<option value="Broker/Agent">Logistics Transporter</option>
+						
+					</select>
+					<select required class="form-control-vin1 form-vin" >
+						<option disabled selected>Business Entity Type</option>
+						<option value="Individuals">Individuals</option>
+						<option value="Proprietorship">Proprietorship</option>
+						<option value="Broker/Agent">Privated Limited Company</option>
+						<option value="Publick Limited Company">Public Limited Company</option>
+					</select>
+					<input type="date" required class="form-control-vin1 form-vin" placeholder="Business Establishment Date">
+					<input type="url"  class="form-control-vin1 form-vin" placeholder="website(optional)">
+					<input type="text" required class="form-control-vin1 form-vin" placeholder="PAN #">
+					<input type="text" class="form-control-vin1 form-vin" placeholder="Service Tax #">
+					<input type="text" class="form-control-vin1 form-vin" placeholder="TIN/CIN">
+					<input type="text" class="form-control-vin1 form-vin" placeholder="Branch">
+					<input type="text" required class="form-control-vin1 form-vin" placeholder="States being Route Covered">
+					<br>Major Routes Being Covered*<br>
+					<input type="text" class="form-control-vin1 form-vin" placeholder="From Location">
+					<input type="text" class="form-control-vin1 form-vin" placeholder="To location">
+					<button type="" class="btn btn1 btn-red">Add More</button>
+					
+					
+					<br>Business Registration Certificate* (Shop & Establishment License, Partnership Deed, Trade License, Certificate of Incorporation, etc.)
+					<input type="file" required class="form-control-vin1 form-vin" placeholder="">
+					<br>Company Logo:
+					<input type="file" class="form-control-vin1 form-vin" placeholder="">
+					<br>Office Photo:
+					<input type="file" class="form-control-vin1 form-vin" placeholder="">
+					<br>User Photo:
+					<input type="file" class="form-control-vin1 form-vin" placeholder="">
+					<div class="">
+							<input type="checkbox" required name="check">
+							<label for="squaredOne"><span>I Agree to the <strong>Terms &amp; Conditions</strong> and <strong>Privacy Policy</strong></span></label>
+						</div>
+					<br><button type="submit" class="btn btn-red">Create Account</button>
+					
+				</form>
+									    </div>
+                                    </div>
+</div>
+                                </div>
+	</div>
+</div>
+	</section>
+	<!--footer-->
+	<footer>
+		<div class="container">
+			
+			<div class="row bottom-footer text-center-mobile">
+				<div class="col-sm-8">
+					<p>&copy; 2016 All Rights Reserved <a href="#">AllTruck</a>. Powered By <a target="_blank" href="http://netzillasolutions.com">NetZilla Solutions</a></p>
+				</div>
+				<div class="col-sm-4 text-right text-center-mobile">
+					<ul class="social-footer">
+						<li><a href=""><i class="fa fa-facebook"></i></a></li>
+						<li><a href=""><i class="fa fa-twitter"></i></a></li>
+						<li><a href=""><i class="fa fa-google-plus"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Holder for mobile navigation -->
+	<div class="mobile-nav">
+		<ul>
+		</ul>
+		<a href="#" class="close-link"><i class="arrow_up"></i></a>
+	</div>
+	<!-- Scripts -->
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/typewriter.js"></script>
+	<script src="js/jquery.onepagenav.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/vinayak.js"></script>
+</body>
+
+</html>
